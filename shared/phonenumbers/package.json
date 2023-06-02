@@ -1,0 +1,17 @@
+{
+  "name": "phonenumbers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "types": "src/types.ts",
+  "scripts": {
+    "clean": "rm -rf dist tsconfig.tsbuildinfo",
+    "build": "tsc --incremental"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.1.3"
+  }
+}
